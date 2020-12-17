@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="NAME (Last name, First name, Middle name)"
+            android:textSize="12sp"
+            android:id="@+id/name"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="ADDRESS (No.St., Brgy., Munipality, Province)"
+            android:textSize="12sp"
+            android:id="@+id/address"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="BIRTH DATE (YYYY/MM/DD)"
+            android:textSize="12sp"
+            android:id="@+id/bday"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="GENDER (M/F)"
+            android:textSize="12sp"
+            android:id="@+id/sex"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="HEIGHT (cm)"
+            android:textSize="12sp"
+            android:id="@+id/height"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="WEIGHT (kg)"
+            android:textSize="12sp"
+            android:id="@+id/weight"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="NATIONALITY"
+            android:textSize="12sp"
+            android:id="@+id/nationality"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="RESTRICTIONS (1-8)"
+            android:textSize="12sp"
+            android:id="@+id/restrictions"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="CONDITIONS (A-E)"
+            android:textSize="12sp"
+            android:id="@+id/condition"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="AGY"
+            android:textSize="12sp"
+            android:id="@+id/agy"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="EXPIRES (YYYY-MM-DD)"
+            android:textSize="12sp"
+            android:id="@+id/expires"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="LICENSE NUMBER"
+            android:textSize="12sp"
+            android:id="@+id/lnum"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="DATE OF REGISTRATION (ex. JAN. 01, 0001)"
+            android:textSize="12sp"
+            android:id="@+id/date"/>
+    </LinearLayout>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#00BCD4"
+        android:text="SUBMIT"
+        android:id="@+id/btnsub"
+        android:onClick="btnGo"/>
+
+</LinearLayout>
